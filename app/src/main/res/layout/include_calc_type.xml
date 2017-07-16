@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/rlTypeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle_frame">
+
+                <TextView
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:id="@+id/tvLimited"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/limited"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/gold" />
+
+                <View
+                    android:layout_margin="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/grey"/>
+
+                <TextView
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:id="@+id/tvRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="5dp"
+                    android:text="@string/regular"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/tvRegular"
+                    android:padding="5dp"
+                    android:text="@string/pay_type"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle_frame">
+
+                <TextView
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:id="@+id/tvEndowment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/endowment"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/gold" />
+
+                <View
+                    android:layout_margin="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/grey"/>
+
+                <TextView
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:id="@+id/tvMoneyBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="5dp"
+                    android:text="@string/money_back"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey" />
+
+                <TextView
+                    android:layout_below="@+id/tvMoneyBack"
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="5dp"
+                    android:text="@string/benefit_type"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/rectangle_frame"
+        android:id="@+id/rlSeekContainer"
+        android:layout_below="@+id/rlTypeContainer"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tvSeekProgress"
+            android:layout_toStartOf="@+id/tvSeekProgress" />
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/tvSeekProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="11"
+            android:textColor="@color/grey_text_color" />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policy_term"
+            android:textColor="@color/grey"
+            android:layout_below="@+id/seekBar"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/rectangle_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlSeekContainer">
+
+        <LinearLayout
+            android:background="@color/gold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:background="@color/grey"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:padding="5dp"
+                    android:id="@+id/tvPremiumPaymentTerm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white" />
+
+                <TextView
+
+                    android:textAllCaps="true"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPremiumPaymentTerm"
+                    android:text="@string/premium_type_term"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <EditText
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:id="@+id/editText3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/annual_premium"
+                android:inputType="number" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

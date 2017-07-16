@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="cream_white">#f9f9f9</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#11000000</color>
+    <color name="red">#ffe31837</color>
+    <color name="visible_black">#32000000</color>
+    <color name="blue">#134da3</color>
+    <color name="dark_blue">#114993</color>
+    <color name="disable_blue">#02224b</color>
+    <color name="light_grey">#f0eff5</color>
+    <color name="login_edit_text_color">#6784a2</color>
+    <color name="grey">#9c9ba1</color>
+    <color name="credit_selection">#ffdfdee0</color>
+    <color name="grey_text_color">#706f75</color>
+    <color name="orange">#FF9900</color>
+    <color name="gold">#d4b128</color>
+    <color name="green">#009900</color>
+    <color name="button_background">#ff495c84</color>
+    <color name="invoice_divider_background">#ffadabae</color>
+    <color name="border_color">#ffadabae</color>
+    <color name="dark_grey">#1d1b1e</color>
+    <color name="disable_text_color">#ff89a6d1</color>
+
+    <color name="price_tracker_details_grey">#9D9D9D</color>
+    <color name="price_tracker_details_dim_white">#F2F6FB</color>
+    <color name="price_tracker_details_list_text">#555555</color>
+    <color name="black_overlay">#99000000</color>
+    <color name="black_dialog_overlay">#66000000</color>
+
+    <color name="cog_begin_inventory_bg">#F6F6F6</color>
+    <color name="cog_end_inventory_bg">#EFEFF4</color>
+    <color name="disabled_grey">#ffc8c8c8</color>
+
+
+</resources>

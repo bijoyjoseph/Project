@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/inType"
+                layout="@layout/include_calc_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/inAnnualPremium"
+                layout="@layout/include_elite_advantage_premium"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_below="@+id/inType" />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/inAnnualPremium"
+                android:layout_margin="5dp"
+                android:background="@color/grey" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/benefit"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <!-- <com.astuetz.PagerSlidingTabStrip
+                     android:layout_below="@+id/textView3"
+                     android:id="@+id/tabs"
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp"
+                     android:background="@color/white"
+                     app:pstsIndicatorColor="@color/blue"
+                     app:pstsIndicatorHeight="5dp" />
+
+                 <android.support.v4.view.ViewPager
+                     android:id="@+id/pager"
+                     android:layout_width="match_parent"
+                     android:layout_height="500dp"
+                     android:layout_below="@+id/tabs"
+                     tools:context=".MainActivity" />-->
+                <include
+                    android:id="@+id/inEndowment"
+                    layout="@layout/include_benefit_elite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/textView3" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

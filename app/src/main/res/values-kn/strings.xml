@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">AXA</string>
+    <string name="cloud_url">https://axaapp.firebaseio.com/</string>
+    <!--Splash screen-->
+    <string name="title">Financial asset management system</string>
+
+    <!--Login screen-->
+    <string name="login">Login</string>
+
+    <!--Calc screen-->
+    <string name="gender">Gender</string>
+    <string name="male">M</string>
+    <string name="female">F</string>
+    <string name="age">AGE(yrs)</string>
+    <string name="input">Input</string>
+
+    <string name="limited">Limited</string>
+    <string name="regular">Regular</string>
+    <string name="endowment">Endow</string>
+    <string name="money_back">M.B</string>
+    <string name="pay_type">Pay type</string>
+    <string name="benefit_type">Benefit type</string>
+    <string name="policy_term">Policy term (yrs)</string>
+    <string name="premium_type_term">Premium payment term (yrs)</string>
+    <string name="annual_premium">Annual premium (yrs)</string>
+    <string name="annual_premium_rupee">Annual premium (Rs)</string>
+    <string name="benefit">Benefit</string>
+    <string name="guaranteed">Guaranteed benefit at maturity</string>
+    <string name="non_guaranteed">Non guaranteed benefit at maturity</string>
+    <string name="total_benefit">Total Maturity benefit</string>
+    <string name="premium_payable">Premium payable</string>
+    <string name="annual_premium_text">Annual premium</string>
+    <string name="semi_annual_premium">Semi manual premium</string>
+    <string name="monthly_premium">Monthly premium</string>
+    <string name="guaranteed_payout_pa">Guaranteed payout PA</string>
+    <string name="total_guaranteed_pa">Total guaranteed payout</string>
+    <string name="sum_assured">Sum assured</string>
+    <string name="benefits_upto_age">Benefits upto age (yrs)</string>
+
+    <string name="sixth">End of 6th year</string>
+    <string name="seventh">End of 7th year</string>
+    <string name="eighth">End of 8th year</string>
+    <string name="ninth">End of 9th year</string>
+    <string name="tenth">End of 10th year</string>
+    <string name="mature_benefit">At maturity</string>
+    <string name="total_guaranteed_benefit">Total guaranteed benefit</string>
+    <string name="total_maturity_benefit">Total maturity benefit</string>
+    <string name="flexi_benefit_period">Flexi benefit period</string>
+    <string name="flexi_bonus_at_maturity">Total bonus at maturity</string>
+    <string name="flexi_total_benefit">Total benefit</string>
+    <string name="total_premium_paid">Total premium paid</string>
+
+    <!--Tools and calculations-->
+    <string name="child_future_plan">Child\'s future plan</string>
+    <string name="wealth_calculator">Wealth calculator</string>
+    <string name="retirement_calculator">Retirement calculator</string>
+
+    <!--Child's future plan-->
+    <string name="current_cost">Current coast</string>
+    <string name="current_age">Current age (yrs)</string>
+    <string name="funds_reqd_at_age">Funds reqd at the age</string>
+    <string name="rate_of_inflation">Rate of inflation(%)</string>
+    <string name="rate_of_return">Rate of return(%)</string>
+    <string name="coast_of_schooling">Coast of doing schooling in 0 years</string>
+    <string name="to_achieve_this_goal">To achieve this goal,you need to invest</string>
+
+    <string-array name="select_goal">
+        <item>Select goal</item>
+        <item>Basic education</item>
+        <item>Graduation with specialisation</item>
+        <item>Post graduation</item>
+    </string-array>
+
+    <string-array name="select_sub_gall">
+        <item>Select sub gall</item>
+        <item>Schooling</item>
+    </string-array>
+
+    <!--wealth calc-->
+    <string-array name="select_purpose">
+        <item>Select purpose</item>
+        <item>Marriage</item>
+        <item>Buying new home</item>
+        <item>Child\'s education</item>
+        <item>Child\'s marriage</item>
+        <item>Business expansion</item>
+        <item>Repayment of loan</item>
+        <item>Vacation abroad</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="funds_required_for">Funds required for</string>
+
+    <!--Retirement-->
+    <string name="savings">Savings</string>
+    <string name="savings_till_date">Savings till date</string>
+    <string name="rate_of_interest">Rate of interest(%)</string>
+    <string name="total_savings_at_retirement">Total savings at retirement</string>
+
+    <string-array name="navigation_items">
+        <item>Product illustration</item>
+        <item>Chat</item>
+        <item>Map</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <!--Survey form-->
+    <string name="name">name</string>
+    <string name="number">number</string>
+    <string name="address">address</string>
+    <string name="email">email</string>
+    <string name="occupation">occupation</string>
+    <string name="annual_income">annual income</string>
+    <string name="submit">submit</string>
+
+    <string name="data_title">ಖರೀದಿಸಲು 4 ರೀಸನ್</string>
+    <string name="data_aajeevan_sampathi_plus_title">Bharti AXA Life Aajeevan Sampatti+(UIN: 130N058V01)</string>
+    <string name="data_aajeevan_sampathi_plus_sub_title">A savings plan that offers dual benefits of guaranteed annual pay-outs with life cover up to age 100. You can also enjoy additional(non-guaranteed) cash bonuses till Maturity.</string>
+    <string name="data_aajeevan_sampathi_plus" >1)When you need a whole life cover up to age 100. You can choose a policy term that will protect you until the age of 85 or 100\n2)Receive annual guaranteed benefit from end of 10th policy year till Maturity. The percentage of the guaranteed annual pay-out depends on the policy term you have chosen; it is 5.5\%% of Sum Assured on maturity when you chose to protect yourself until the age of 100and 6\%% of Sum Assured on maturitywhen you chose to protect yourself until the age of 85\n3)Potential of upside bonus from end of 6th policy year. This non-guaranteed benefit (as percentage of Sum Assured on Maturity) is paid out as a cash bonus every year starting from the 6th Policy year, until maturity or death, whichever is earlier. You can also enjoy a discount on the premiums if you opt for a Sum Assured of Rs. 4,00,000 and above\n4)Enjoy Tax benefits on the premiums paid and pay-out benefits received.The Tax benefits fall under Section 80C and Section 10 (10D) respectively, of the Income Tax Act, 1961. They are subject to change as per change in tax laws from time to time.</string>
+    <string-array name="data_title">
+        <item>Bharti AXA Life Child Advantage(UIN: 130N065V01)</item>
+        <item>Bharti AXA Life Aajeevan Sampatti+(UIN: 130N058V01)</item>
+    </string-array>
+    <string-array name="data_subtitle">
+        <item>A traditional participating savings plan with an in-built Premium waiver benefit that offers you the flexibility to choose between 2 Maturity benefits – Money back and Endowment – depending on the needs and career goals of your child. </item>
+        <item>A savings plan that offers dual benefits of guaranteed annual pay-outs with life cover up to age 100. You can also enjoy additional(non-guaranteed) cash bonuses till Maturity.</item>
+    </string-array>
+    <string-array name="data_four_reasons">
+        <item>1)Choose between pay-out options that are based on your child’s needs – Money back or Endowment.a.)With the Money back option, you will get guaranteed pay-outs in the last 5 years before Maturity to meet your child’s education needs. At Maturity you will get guaranteed Maturity pay-out for your child’s higher education and career needs. b.) With the Endowment option you will get a guaranteed lump sum amount at Maturity, provided the Policy is in force, to help meet your child’s dream.\n
+            2)Built-in Premium waiver benefit ensures that your child’s needs will be taken care of.If something unfortunate were to happen to the parent (Life Insured) the future Premiums are waived off while all the benefits in the policy continue.\n
+            3)Flexibility to choose your Policy Term – between 11 and 21 years.Based on your child’s age, you can choose a Policy Term between 11 to 21 years. Also choose the Premium payment type –‘limited pay’ where the Premium payment term is 5 years lesser than the Policy Term or ‘regular pay’ where the Premium payment term is equal to Policy Term.\n
+            4)Potential upside with bonus.Non-guaranteed annual simple reversionary bonus gets accrued to the policy at the end of each year provided all due Premiums are paid and is payable at Maturity. The company may also declare non-guaranteed terminal bonus that will be also be payable at Maturity.
+    </item>
+    <item>1)When you need a whole life cover up to age 100. You can choose a policy term that will protect you until the age of 85 or 100\n
+        2)Receive annual guaranteed benefit from end of 10th policy year till Maturity. The percentage of the guaranteed annual pay-out depends on the policy term you have chosen; it is 5.5\%% of Sum Assured on maturity when you chose to protect yourself until the age of 100and 6\%% of Sum Assured on maturitywhen you chose to protect yourself until the age of 85\n
+        3)Potential of upside bonus from end of 6th policy year. This non-guaranteed benefit (as percentage of Sum Assured on Maturity) is paid out as a cash bonus every year starting from the 6th Policy year, until maturity or death, whichever is earlier. You can also enjoy a discount on the premiums if you opt for a Sum Assured of Rs. 4,00,000 and above\n
+        4)Enjoy Tax benefits on the premiums paid and pay-out benefits received.The Tax benefits fall under Section 80C and Section 10 (10D) respectively, of the Income Tax Act, 1961. They are subject to change as per change in tax laws from time to time.</item>
+    </string-array>
+
+</resources>

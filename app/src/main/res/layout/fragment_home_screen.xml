@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:id="@+id/pi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="pi" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="calc" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="map"
+        android:id="@+id/map"
+        android:layout_above="@+id/pi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:id="@+id/chat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="graph"
+        android:id="@+id/graph"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logout"
+        android:layout_below="@+id/pi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SURVEY"
+        android:id="@+id/survey"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="requests"
+        android:id="@+id/requests"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+<!--
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request"
+        android:id="@+id/btRequest"
+        android:layout_alignTop="@+id/pi"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />-->
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTitleContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="50dp"
+        android:text="Large Text"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gold"
+        android:textStyle="bold"
+        android:layout_below="@+id/rlTextContainer" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvTitle"
+        android:background="@color/gold" />
+
+    <RelativeLayout
+        android:id="@+id/rlTextContainer"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/tvCalled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Called"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/gold" />
+
+        <TextView
+            android:visibility="gone"
+            android:padding="10dp"
+            android:id="@+id/tvRejected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvCalled"
+            android:text="Rejected"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/gold" />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/tvHold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvRejected"
+            android:text="Hold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/gold" />
+    </RelativeLayout>
+</RelativeLayout>
