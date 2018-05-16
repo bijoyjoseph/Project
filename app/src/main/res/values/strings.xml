@@ -161,33 +161,33 @@
               4)Potential upside with bonus.Non-guaranteed annual simple reversionary bonus gets accrued to the policy at the end of each year provided all due 		Premiums are paid and is payable at Maturity. The company may also declare non-guaranteed terminal bonus that will be also be payable at Maturity.
     </item>
 
-    <item>1)Enjoy a guaranteed lump sum benefit at Maturity. If the life insured survives till the Maturity of the Policy and all the Premiums are duly paid, then 	    he will receive 100\%% of Sum Assured on Maturity.
+        <item>1)Enjoy a guaranteed lump sum benefit at Maturity. If the life insured survives till the Maturity of the Policy and all the Premiums are duly paid, then 	    he will receive 100\%% of Sum Assured on Maturity.
         2)Potential to receive additional earnings through bonuses. Enjoy accrued non-guaranteed annual simple reversionary bonus and non-guaranteed terminal bonus, if declared by the company.
         3)Choose from eight different Premium payment Terms.Premium payment Terms are 5, 10, 12, 15, 20, 25, 30 and 35 years.
         4)Enjoy Tax benefits on the Premiums paid and pay-out benefits received. The Tax benefits fall under Section 80C and Section 10 (10D) respectively, of the Income Tax Act, 1961. They are subject to change as per change in tax laws from time to time.
 </item>
 
-<item>1)Enjoy a guaranteed lump sum benefit at Maturity. If the life insured survives till the Maturity of the Policy and all the Premiums are duly paid, then 	    he will receive 100\%% of Sum Assured on Maturity.
+        <item>1)Enjoy a guaranteed lump sum benefit at Maturity. If the life insured survives till the Maturity of the Policy and all the Premiums are duly paid, then 	    he will receive 100\%% of Sum Assured on Maturity.
         2)Enjoy guaranteed lump sum benefit at Maturity. 100\%% of Sum Assured on Maturity is paid at the end of 20th year from the policy date.
         3)Different Premium payment Terms to choose from. Premium payment Terms are 5, 7 and 12 years.
         4)Enjoy Tax benefits on the Premiums paid and pay-out benefits received. The Tax benefits fall under Section 80C and Section 10 (10D) respectively, of the Income Tax Act, 1961. They are subject to change as per change in tax laws from time to time.
 </item>
 
-<item>
+        <item>
 1)Offers cover for 13 critical illnesses. The 13 critical illnesses are split into 3 groups- Group A, Group B and Group C.
         2)Can make up to 3 Claims during the Policy Term. After the first Claim, which falls under one of the groups, you will still be eligible for a second and third Claim from the other two remaining groups.
         3)Reduces your burden by waiving off future Premiums after the 1st Claim is made. We will pay all the future premiums on your behalf and keep your Policy cover in force until Maturity.
         4)You get 100\%% Sum Assured for each Claim. After the first Claim, you will receive 100\%% of the Sum Assured for the other two Claims provided the event is not included in the same group. This is subject to a no benefit period of 365 days between each Claim.
 </item>
 
-<item>
+        <item>
 1)Flexibility of withdrawing your savings anytime during the Flexi benefit period by modifying your Policy Term while the Policy is in force. Anytime during the Flexi benefit period, you can decide to pre-pone the Maturity benefit of your policy and enjoy the full benefits due in the Policy (i.e.100\%% of Sum Assured plus accrued bonus till date plus terminal bonus (if any).
         2)Potential upside through bonuses. A non-guaranteed simple annual reversionary bonus gets accrued to the policy from the end of 1st Policy year and will get paid out on Maturity or on death. A terminal bonus may also be declared, which will be paid out in case of death or Maturity, whichever is earlier.
         3)Flexibility of choosing between 3 Premium payment Terms as per your financial convenience. Pay 5 Premiums with a Policy Term of 20 years; pay 7 Premiums with a Policy Term of 25 years and pay 12 Premiums with a Policy Term of 30 years.
         4)Enjoy Tax benefits on the Premiums paid and pay-out benefits received. The Tax benefits fall under Section 80C and Section 10 (10D) respectively, of the Income Tax Act, 1961. They are subject to change as per change in tax laws from time to time.
 </item>
 
-<item>
+        <item>
 1)Benefits in the form of Monthly income after completion of Premium payment term. Start receiving guaranteed Monthly income after the completion of the Premium payment term, until Maturity, provided the policy is still in force. You have the flexibility to choose the Monthly income you wish to receive, which decides your Premium amount.
         2)Potential of upside bonuses.
 A non-guaranteed simple annual reversionary bonus gets accrued to the Policy from the end of 1st Policy year and will get paid out on Maturity or on death. You may also receive non-guaranteed terminal bonus either on death or Maturity.
@@ -195,7 +195,7 @@ A non-guaranteed simple annual reversionary bonus gets accrued to the Policy fro
         4)Ideal for retirement planning or for receiving additional Monthly income. The tax-free additional income can help you live a comfortable life in your golden years.
 </item>
 
-<item>
+        <item>
 1)A choice between the Super 6 and Super 10 option depending on desired investment term and returns. With the Super 6 option you pay premiums for 6 years and with the Super 10 option, you pay premiums for 10 years. The duration of Guaranteed Money Back Benefits will also be 6 years and 10 years respectively for Super 6 and Super 10 options. You get 270\%% of ‘Sum Assured on Maturity’ for Super 6 option and 396\%% of ‘Sum Assured on Maturity’ for Super 10 option as total guaranteed benefits.
         2)Get cash pay-outs every year from the end of the premium payment term till policy maturity. Once your premium payment term comes to an end, you receive a lump sum cash pay-out of 50\%% of the \'Sum Assured on Maturity\'. This is followed by cash pay-outs of 12\%% of the \'Sum Assured on Maturity\' in the following year and keeps increasing by 3\%% for all subsequent annual pay-outs henceforth.
         3)Receive Maturity benefit along with a Guaranteed Maturity Addition Upon Maturity, you will receive \'Sum Assured on Maturity\'. This sum of money can help for make important payments for weddings, education etc., provided the policy is in-force at the time of maturity. You will also be eligible for an additional 30\%% of \'Sum Assured on Maturity\' as Guaranteed Maturity Addition as a reward for staying invested in the Policy for the entire Policy term.
@@ -219,5 +219,8 @@ A non-guaranteed simple annual reversionary bonus gets accrued to the Policy fro
     <string name="tw_link">https://twitter.com/bhartiaxalife</string>
     <string name="ln_link">https://www.linkedin.com/company/bharti-axa-life-insurance?trk=top_nav_home</string>
     <string name="yu_link">https://www.youtube.com/c/bhartiaxalifeinsuranceindia</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

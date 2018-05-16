@@ -8,6 +8,10 @@
         "source": "/media/xyz/New Volume1/droid/AXA/library/build/intermediates/bundles/debug/res/drawable/background_tab.xml"
     },
     {
+        "merged": "/media/xyz/Y/droid/AXA/library/build/intermediates/res/merged/androidTest/debug/drawable/background_tab.xml",
+        "source": "/media/xyz/Y/droid/AXA/library/build/intermediates/bundles/debug/res/drawable/background_tab.xml"
+    },
+    {
         "merged": "/media/xyz/New Volume/droid/AXA/library/build/intermediates/res/merged/androidTest/debug/drawable/background_tab.xml",
         "source": "/media/xyz/New Volume/droid/AXA/library/build/intermediates/bundles/debug/res/drawable/background_tab.xml"
     }
